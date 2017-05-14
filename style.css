@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+		font-size: 16px;
+		line-height: 1.3;
+}
+
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*---CAROUSEL---*/
+.carousel-caption {
+	top: 5%;
+	color: black;
+}
+
+.carousel h3 {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+/*---NAVIGTION*---*/
+.affix
+{
+    top: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: white;
+}
+
+.nav>li>a {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 25px;
+	color: black;
+}
+
+.nav>li>.home, .nav>li>.home:hover {
+	background-color: rgba(223, 187, 66, 0.6);
+	color: white;
+}
+
+.nav>li>.menu2:hover {
+	background-color: rgba(196, 52, 52, 0.6);
+}
+
+.nav>li>.menu3:hover {
+	background-color: rgba(80, 139, 97, 0.6);
+}
+
+.nav>li>.menu4:hover {
+	background-color: rgba(66, 141, 158, 0.6);
+}
+
+.navbar-brand {
+	padding: 0 20px 0 20px;
+}
+
+.navbar-brand img {
+	height: 100%;
+}
+
+.icon-bar {
+	background-color: black;
+}
+
+/*---TABS - MENU 2---*/
+.tabs {
+	background-color: #f1f1f1;
+}
+
+.tab-content {
+	padding: 75px 120px 90px;
+}
+
+.tabs>li>a {
+	text-transform: uppercase;
+}
+
+/*---GALLERY---*/
+.gallery {
+	background-image: url('images/background-gallery.jpg');
+	background-repeat: repeat-y;
+	padding: 30px 50px;
+}
+
+.row {
+	margin-top: 60px;
+}
+
+.img-background {
+	background-color: white;
+}
+
+.layer1 {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	padding: 25px 0;
+}
+
+.layer1 h3 {
+	color: black;
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	bottom: 10px;
+	text-align: center;
+	padding-top: 20%;
+}
+
+.layer1 h3:hover {
+	opacity: 1;
+	background-color: white;
+	width: 80%;
+	height: 40%;
+	text-transform: uppercase;
+	transition: .3s;
+}
+
+.layer2 {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(90deg, #f1c40f 50%, transparent 50%);
+}
+
+.layer2 img {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+ 
+.layer2 img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+/*---LIST---*/
+.list {
+	color: black;
+	background-color: white;
+}
+
+.list .row {
+	margin: 0;
+}
+
+.list h3 {
+	text-decoration: underline;
+	-moz-text-decoration-color: #1883b4; 
+	text-decoration-color: #1883b4;
+}
+
+.title {
+	background-color: #7ec8ea;
+	margin: 0;
+	padding: 0;
+}
