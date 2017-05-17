@@ -6,16 +6,22 @@
 		<title>Task-Chilid</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<header class="container">
 			<div id="my-carousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
-					<li data-target="#my-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#my-carousel" data-slide-to="1"></li>
-					<li data-target="#my-carousel" data-slide-to="2"></li>
+					<li data-target="#my-carousel" data-slide-to="0" class="active">
+						<img src="images/carousel-icon1.png">
+					</li>
+					<li data-target="#my-carousel" data-slide-to="1">
+						<img src="images/carousel-icon2.png">
+					</li>
+					<li data-target="#my-carousel" data-slide-to="2">
+						<img src="images/carousel-icon3.png">
+					</li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active example-1">
@@ -39,28 +45,26 @@
 				</div>
 			</div>
 		</header>
-		<nav id="navbar-main" class="navbar navbar-static-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">
-						<img src="images/logo.jpg">
-					</a>
-				</div>
-				<div id="navbar" class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a class="home" href="#">Home</a></li>
-						<li><a class="menu2" href="#menu2">Menu 2</a></li>
-						<li><a class="menu3" href="#menu3">Menu 3</a></li>
-						<li><a class="menu4" href="#menu4">Menu 4</a></li>
-					</ul>
-				</div>		
+		<nav id="navbar-main" class="navbar navbar-static-top" role="navigation	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.jpg">
+				</a>
 			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right text-center">
+					<li class="active"><a class="home" href="#">Home</a></li>
+					<li><a class="menu2" href="#menu2">Menu 2</a></li>
+					<li><a class="menu3" href="#menu3">Menu 3</a></li>
+					<li><a class="menu4" href="#menu4">Menu 4</a></li>
+				</ul>
+			</div>		
 		</nav>
 		<div class="tabs text-center" id="menu2" >
 			<div class="tab-content">
@@ -79,8 +83,7 @@
 						eget. Pellentesque ultrices, ligula vestibulum porttitor 
 						pharetra, arcu nisl vulputate ligula, id vulputate ligula urna 
 						vel tortor. In ullamcorper blandit erat, nec egestas massa
-						commodo consectetur. In nec odio lorem. Donec nulla neque, 
-						vehicula in bibendum et, rhoncus sit amet nibh.
+						commodo consectetur. In nec odio lorem. Donec nulla neque.
 					</p>
 				</div>
 				<div id="box2" class="tab-pane fade">
@@ -137,51 +140,65 @@
 				</div>
 			</div>
 			<ul class="nav nav-tabs nav-justified">
-				<li class="active"><a class="box1" data-toggle="tab" href="#box1">Box name 1</a></li>
-				<li class="box2"><a class="box2" data-toggle="tab" href="#box2">Box name 2</a></li>
-				<li class="box3"><a data-toggle="tab" href="#box3">Box name 3</a></li>
-				<li class="box4"><a data-toggle="tab" href="#box4">Box name 4</a></li>
+				<li class="active"><a data-toggle="tab" href="#box1">Box name 1</a></li>
+				<li><a data-toggle="tab" href="#box2">Box name 2</a></li>
+				<li><a data-toggle="tab" href="#box3">Box name 3</a></li>
+				<li><a data-toggle="tab" href="#box4">Box name 4</a></li>
 			</ul>
 		</div>
-		<div class="container-fluid gallery">
+		<div class="container gallery">
 			<div class="row" id="menu3">
 				<div class="col-md-3 col-sm-6">
-					<div class="layer1">
-						<h3>Box caption</h3>
-						<img src="images/image1.jpg" class="img-responsive">
+					<div class="layer-background ">
+						<div class="layer1">
+							<h2>Box<br> caption</h2>
+						</div>	
 					</div>	
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<div class="layer1">
-						<h3>Box caption</h3>
-						<img src="images/image2.jpg" class="img-responsive">
-					</div>
+					<div class="layer-background">
+						<div class="layer1">
+							<h2>Box<br> caption</h2>
+						</div>	
+					</div>	
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<div class="layer1">
-						<h3>Box caption</h3>
-						<img src="images/image1.jpg" class="img-responsive">
-					</div>
+					<div class="layer-background">
+						<div class="layer1">
+							<h2>Box<br> caption</h2>
+						</div>	
+					</div>	
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<div class="layer1">
-						<h3>Box caption</h3>
-						<img src="images/image2.jpg" class="img-responsive">
-					</div>
+					<div class="layer-background">
+						<div class="layer1">
+							<h2>Box<br> caption</h2>
+						</div>	
+					</div>	
 				</div>
 			</div>
 			<div class="row" id="menu4">
-				<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="col-lg-4 col-md-6 col-s-6 col-xs-12">
 					<div class="layer2">
-						<img src="images/image3.jpg">
+						<div>
+							<button>
+								<span class="glyphicon glyphicon-menu-right"></span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</button>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="col-lg-4 col-md-6 col-s-6 col-xs-12">
 					<div class="layer2">
-						<img src="images/image4.jpg">
-					</div class="layer2">
+						<div>
+							<button>
+								<span class="glyphicon glyphicon-menu-left"></span>
+								<span class="glyphicon glyphicon-menu-left"></span>
+							</button>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12 list">
+				<div class="col-lg-4 col-md-12 col-s-12 col-xs-12 list">
 					<div class="row">
 						<div class="col-md-12 title">
 							<h3><img src="images/icon.png">Title</h3>

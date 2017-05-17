@@ -1,13 +1,13 @@
 $('nav').affix({
-      offset: {
-        top: $('header').height()
-      }
+	offset: {
+		top: $('header').height()
+	}
 });
 
 $('nav').on('affix.bs.affix', function (){
-     $('body').css('margin-top', $('nav').height());
+	$('body').css('margin-top', $('nav').height());
 });
 
 $('nav').on('affix-top.bs.affix', function (){
-     $('body').css('margin-top', 0);
+	$('body').css('margin-top', 0);
 });
